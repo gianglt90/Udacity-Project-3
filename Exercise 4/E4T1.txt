@@ -1,0 +1,10 @@
+1. To prevent SSH bruteforce attack
+  - Disable PasswordAuthentication 
+  - Move the web service instance into the private subnet
+  - Limit the number of authentication attempts
+
+2. We can prevente access to sensitive data by: 
+   Consider encryption of data at rest
+   Enforce encryption of data in transit
+   Consider S3 Object Lock
+   Consider VPC endpoints for Amazon S3 access

@@ -1,0 +1,7 @@
+# Poor practice 1
+We should not allow Bussiness user access directly to S3 secret recipes, anyone with access to account would be able to read the data.
+We should use IAM roles or CloudFront to protect it.
+
+# Poor practice 2
+Web Service instance should only allow request from ALB
+The Web service should under private subnet because it is beind an ALB

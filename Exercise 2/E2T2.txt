@@ -1,0 +1,17 @@
+s3-bucket-logging was not enabled
+
+s3-event-notifications was not enabled
+
+s3-bucket-ssl-requests-only was not set
+
+s3-bucket-level-public-access-prohibited was not set
+
+s3-bucket-server-side-encryptionwas not enabled
+
+EC2 instances have a public IP association
+
+The ELB have not logging enabled
+
+The ELB do not have HTTP to HTTPS redirection configured
+
+The incoming SSH traffic in the security groups are not restricted

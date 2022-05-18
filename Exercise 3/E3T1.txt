@@ -1,0 +1,4 @@
+What findings were detected related to the brute force attack?
+  - UnauthorizedAccess:EC2/SSHBruteForce
+AWS Guard Duty's source of information
+   It uses threat intelligence feeds, such as lists of malicious IP addresses and domains, and machine learning to identify unexpected and potentially unauthorized and malicious activity within your AWS environment

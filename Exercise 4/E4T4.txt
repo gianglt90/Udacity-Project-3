@@ -1,0 +1,10 @@
+1. To reduce the internet-facing attack surface of the web application instance.
+  Disable auto assign public IP to VPC
+  Change EC2 from public subnet to private subnet
+  Enable HTTP to HTTPS redirection configuration for ELB
+
+2. No, if you have access to any EC2 server in same VPC, you still can access the bucket
+
+3. No, encryption only apply for new files. We need to reupload old files to apply encryption for them
+
+4. All the configuration will be reset by cloud formation templates.
