@@ -2,14 +2,22 @@ Infrastructure as code compliance scanning
   Terrascan
     - Detect security vulnerabilities and compliance violations.
     - Scan infrastructure as code for misconfigurations
+  - Example issues:
+    - Don't encrypt S3
+    - Data Security in database
 
 AMI or container image scanning.
-  - AWS ECR
-    - Basic scanning (Vulnerability Detection on OS packages)
-	- Enhanced scanning (OS and programming language packages)
+  - Clair: Vulnerability scanner and static analysis tool for container images
+  Example issues:
+    - The vulnerabilities in OS
+    - Trojans, viruses and malware
 
 Post-deployment compliance scanning
   - Tools
     - AWS Inspector: Runs assessments on AWS resources to detect vulnerabilities by defined rules
     - AWS Security Hub: Analyze security trends and identify the highest priority security issues
     - AWS config: Find non-compliance configuration and resources
+  - Example issues:
+    - Security group inbound rules
+    - IAM Accounts issues
+    - S3 encryption

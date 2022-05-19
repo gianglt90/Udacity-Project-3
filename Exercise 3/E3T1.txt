@@ -1,4 +1,7 @@
 What findings were detected related to the brute force attack?
   - UnauthorizedAccess:EC2/SSHBruteForce
+    1. Attack Instance is performing SSH brute force attacks against Web Service Instance
+    2. 43.138.60.137 is performing SSH brute force attacks against Web Service Instance
 AWS Guard Duty's source of information
    It uses threat intelligence feeds, such as lists of malicious IP addresses and domains, and machine learning to identify unexpected and potentially unauthorized and malicious activity within your AWS environment
+   In this case, it scan network traffic and found SSHBruteForce attack by traffic thought port 22
